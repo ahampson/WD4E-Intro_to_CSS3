@@ -32,14 +32,15 @@ p{
 
 div{
     display: inline-block;
+    align-items:center;
 }
 
 main{
   /* Set the display display */
-  
+  display: grid;
   /* Set the template columns */
-
+    grid-template-columns: 25% 50% 25%;
   /* Set the justification  */
-  
+  justify-content: center;
 }
 

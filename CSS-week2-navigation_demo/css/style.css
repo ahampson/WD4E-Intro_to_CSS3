@@ -1,25 +1,43 @@
-/* main {
+main {
   min-height: 100px;
-} */
+}
 
-/* nav a {
+nav {
+   padding: 25px;
+   display: block
+}
+
+nav a {
   text-decoration: none;
   background-color: yellow;
-} */
+  padding: 5px;
+  border-radius: 25%;
+  margin-bottom: 25px
+}
+
+nav a:hover, nav a:focus{
+  background-color: darkkhaki;
+  padding: 5px;
+  border-radius: 25%;
+  margin-bottom: 25px;
+}
 
 
-/* ul {
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-} */
+}
 
-/* li {
+li {
     list-style-type: none;
-} */
+}
 
-/* .current {
+.current {
   text-transform: uppercase;
-  background-color: lightgray;
+  background-color:coral;
   border-bottom: 2px solid black;
-} */
+  border-radius: 25%;
+  padding: 5px;
+  margin-top: -5px;
+}
