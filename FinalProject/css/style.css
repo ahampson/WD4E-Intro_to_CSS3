@@ -1,0 +1,201 @@
+body {
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  background-color: #7DEAFB;
+}
+
+main {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+img {
+  width: 95%;
+  padding:2.5%;
+}
+
+em {
+  padding-top: 5%;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+section {
+  display: grid;
+  padding: 10%;
+  margin: 2%;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-color: #F0A757 ;
+  border-style: outset;
+  border-width: 2px;
+}
+
+section h2 {
+  margin: 0 0 8px;
+  font-size: 1.2rem
+}
+
+section p{
+  margin: 0 0 12px;
+  color: #555;
+  line-height: 1.5;
+}
+
+section a{
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background: #8F55E0;
+  color: white;
+  cursor: pointer;
+  margin-top: 2%;
+  justify-self: end;
+  text-decoration: none;
+}
+
+section a:hover{
+  background: #4F2683;
+}
+
+nav {
+  display: flex;
+  justify-content:space-evenly ;
+  background-color: #818284;
+  margin: -10px;
+  padding: 10px;
+  border-bottom: 4px solid #201436;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%
+}
+
+nav a  {
+  display: inline;
+  text-decoration: none;
+  background-color: #4F2683;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  margin: 1%;
+  border-radius: 15px;
+  font-size: large;
+  align-content: center;
+}
+
+nav a:hover, nav a.active {
+  display: inline;
+  background-color: #201436;
+  padding: 10px 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: disclosure-closed;
+}
+
+li {
+  padding: 2px;
+}
+
+.box {
+  padding: 5%;
+  margin: 1%;
+  border: 1px inset black;
+  border-radius: 10%;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.indigo {
+  background-color:indigo;
+  color: white;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.white {
+  background-color: white;
+}
+
+.offpage {
+  position: absolute;
+  left: -1000px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.offpage:focus {
+  position: static;
+  line-height: normal ;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.half{
+  width: 50%
+}
+
+.rotate:hover {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
